@@ -7,7 +7,16 @@ El programa en C s'encarrega de mantenir sincronitzats els vídeos del Drive del
 
 La sincronització de vídeos es realitza cada dia a les 8 del matí i s'envia un correu a lsradiolab@gmail.com en cas de que hagi fallat.
 
-###Com instal.lar el software
+### Creedencials
+Raspberry pi 4
+User: pi
+Password: RadioLab1
+
+Email Drive RadioLab
+Email: lsradiolab@gmail.com	
+Password: Radiolab19
+
+### Com instal.lar el software
 Instalar mutt en el sistema linux:
 	sudo apt-get install mutt -y
 
