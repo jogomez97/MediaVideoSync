@@ -5,6 +5,10 @@
 
 #define ERR_FORK "Error en fer el fork.\n"
 
+#define PATH_TO_VIDEOS_FOLDER "./drive/videos"
+
+#define PATH_TO_LOADING_VIDEO_FOLDER "./loadingScreen"
+
 /*
     VLC ARGUMENTS:
         * --fullscreen = -f
@@ -13,6 +17,8 @@
 */
 
 pid_t vlcLaunch();
+pid_t vclLoadingScreen();
+
 void stopVlc();
 
 #endif
