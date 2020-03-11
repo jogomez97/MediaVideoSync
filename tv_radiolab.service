@@ -1,0 +1,10 @@
+[Unit]
+Description=bla
+After=graphical.target
+[Service]
+Type=oneshot
+ExecStart=/home/pi/MediaVideoSync/script.sh
+RemainAfterExit=true
+[Install]
+WantedBy=graphical.target
+WantedBy=network-online.target
